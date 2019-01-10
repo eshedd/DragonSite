@@ -1,0 +1,31 @@
+.pagetop {
+    display: flex;
+    float: right;
+}
+.topnav {
+    overflow: hidden;
+    margin-top: -75px;
+    box-flex: 30%;
+}
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+#redirect {
+    text-decoration: none;
+    color: blue;
+    transition: 0.2s;
+    font-family: Arial;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
