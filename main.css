@@ -2,6 +2,9 @@
     display: flex;
     float: right;
 }
+.pagetop img {
+    margin-top: 15px;
+}
 
 #redirect {
     text-decoration: none;
@@ -48,7 +51,7 @@
 
   .nopush {
       position: absolute;
-      top: 10%;
+      top: 80px;
       width:100%;
   }
 
