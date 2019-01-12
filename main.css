@@ -22,10 +22,43 @@
     font-family: Arial;
 }
 #redirect:hover {
-    color: orange;
-    text-decoration:none;
+    color: white;
+    text-decoration: none;
     transform: scale(1.1);
 }
-h2 {
-    
-}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    border: solid black 2px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    background-color: orange;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 160px;
+  }
+
+  .content h2 {
+    border-bottom: solid rgb(255, 177, 33);
+  }
+
+  .divide {
+      margin-top: 10px;
+      width:100%;
+      height: 2px;
+      background-color: orange;
+      position: absolute;
+  }
