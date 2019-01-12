@@ -1,0 +1,69 @@
+<html !DOCTYPE>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../main.css">
+</head>
+
+<body>
+    <div class="pagetop">
+        <img height="50px" width="300px" src="../The-Dragon-Color.png">
+    </div>
+
+    <button class="collapsible">Navigation</button>
+    <div class="content">
+        <a id="redirect" href="../index.html">
+            <h2>Home</h2>
+        </a>
+        <a id="redirect" href="entertainment.html">
+            <h2>Entertainment</h2>
+        </a>
+        <a id="redirect" href="printissues.html">
+            <h2>Print Issues</h2>
+        </a>
+        <a id="redirect" href="contribute.html">
+            <h2>Contribute</h2>
+        </a>
+        <a id="redirect" href="news.html">
+            <h2>Top News</h2>
+        </a>
+        <a id="redirect" href="features.html">
+            <h2>Features</h2>
+        </a>
+        <a id="redirect" href="opinion.html">
+            <h2>Opinion</h2>
+        </a>
+        <a id="redirect" href="sports.html">
+            <h2>Sports</h2>
+        </a>
+        <a id="redirect" href="questions.html">
+            <h2>Q&A</h2>
+        </a>
+        <a id="redirect" href="staff.html">
+            <h2>Staff</h2>
+        </a>
+    </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+    <div class="nopush">
+        <div class="divide"></div>
+        <header>Top News</header>
+        <p>lorem ipsum</p>
+    </div>
+</body>
+
+</html>
