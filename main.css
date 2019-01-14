@@ -2,9 +2,6 @@
     display: flex;
     float: right;
 }
-.pagetop img {
-    margin-top: 15px;
-}
 
 #redirect {
     text-decoration: none;
