@@ -17,6 +17,8 @@
 }
 
 .collapsible {
+    margin-top: 8px;
+    margin-left: 8px;
     font-family: 'Raleway';
     background-color: #777;
     color: white;
@@ -71,3 +73,27 @@
   p {
     font-family: 'Raleway';
   }
+
+  .featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .big img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .smallcontainer {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .small img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+  }
+
