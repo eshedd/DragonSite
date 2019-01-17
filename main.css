@@ -85,11 +85,15 @@
     height: 300px;
     object-fit: cover;
     object-position: center;
+    z-index: 0;
   }
+
   .smallcontainer {
-      display: flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
   }
+
   .small img {
     width: 250px;
     height: 150px;
@@ -97,3 +101,8 @@
     object-position: center;
   }
 
+  .title {
+      background-color:black;
+      margin-top: -50px;
+      z-index: 9999;
+  }
