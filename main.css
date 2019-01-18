@@ -17,40 +17,41 @@
 }
 
 .collapsible {
-    margin-top: 8px;
-    margin-left: 8px;
-    font-family: 'Raleway';
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    border: solid black 2px;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    border-radius: 15px;
-  }
-  
-  .active, .collapsible:hover {
-    background-color: #555;
-  }
-  
-  .content {
-    padding: 0 18px;
-    background-color: orange;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    width: 160px;
-    position:relative;
-    z-index: 9999;
-    border-radius: 15px;
-  }
+  margin-top: 8px;
+  margin-left: 8px;
+  font-family: 'Raleway';
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  padding-right: 47px;
+  padding-left: 47px;
+  border: solid black 2px;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
 
-  .content h2 {
-    border-bottom: solid rgb(255, 177, 33);
-    font-family: 'Raleway';
-  }
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: orange;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width: 160px;
+  position:relative;
+  z-index: 9999;
+  margin-left: 8px;
+}
+
+.content h2 {
+  border-bottom: solid rgb(255, 177, 33);
+  font-family: 'Raleway';
+}
 
   .nopush {
       position: absolute;
